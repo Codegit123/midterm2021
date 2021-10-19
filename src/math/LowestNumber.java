@@ -14,9 +14,18 @@ public class LowestNumber {
 		 */
 
 
-		//implementation here...
-
-
+		int[] arr = {25, 86, 41, 97, 22, 34};
+		int smallest = Integer.MAX_VALUE;
+		int index=0;
+		while(index<arr.length) {
+			//check if smallest is greater than element
+			if(smallest>arr[index]) {
+				//update smallest
+				smallest=arr[index];
+			}
+			index++;
+		}
+		System.out.println("The smallest number is : "+ smallest);
 	}
 
 }
