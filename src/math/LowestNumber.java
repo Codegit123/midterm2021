@@ -13,7 +13,6 @@ public class LowestNumber {
 		 * Use one of the databases from mysql or mongodb to store and to retrieve.
 		 */
 
-
 		int[] arr = {25, 86, 41, 97, 22, 34};
 		int smallest = Integer.MAX_VALUE;
 		int index=0;
