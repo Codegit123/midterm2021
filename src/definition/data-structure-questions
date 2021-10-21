@@ -1,84 +1,94 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+A. Specific data structures are essential ingredients of many efficient algorithms, and make possible the management of huge amounts of data, such as large integrated collection of databases.
 
 What are the various operations that can be performed on different Data Structures?
-A.
+A.traversing, searching, insertion and deletion.
 
 List out the areas in which data structures are applied extensively?
-A.
+A.Compiler design, operating system, DBMS, graphics, simulation and artificial intelligence.
 
 what is an Array?
-A.
+A.Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
 
 what is the difference between the Array and ArrayList?
-A.
+A.An array is a dynamically-created object. It serves as a container that holds the constant number of values of the same type. It has a contiguous memory location. Once an array is created, we cannot change its size while
+  ArrayList is a class of Collections framework. It implements List<E>, Collection<E>, Iterable<E>, Cloneable, Serializable, and RandomAccess interfaces. It extends AbstractList<E> class.
 
 what is LinkedList?
-A.
+A.The LinkedList class is a collection which can contain many objects of the same type.
 
 How is an Array different from Linked List?
-A.
+A.Array stores elements in contiguous memory locations and memory is allocated to arrays at compile time while
+  are less rigid, elements can be stored in non-contiguous locations and Memory is allocated to linked list at run time.
 
 what is queue?
-A.
+A.The queue is a data structure which implements the Collection interface. The queue implements FIFO i.e. First In First Out. This means that the elements entered first are the ones that are deleted first.
 
 what is stack?
-A.
+A.The stack is a linear data structure that is used to store the collection of objects. It is based on Last-In-First-Out (LIFO).
 
 what is FIFO and LIFO?
-A.
+A.FIFO is an abbreviation for first in, first out. It is a method for handling data structures where the first element is processed first and the newest element is processed last. LIFO is an abbreviation for Last in, first out.
 
 what is the order of complexity?
-A.
+A.It is nothing but the order of constant, logarithmic, linear and so on, the number of steps encountered for the completion of a particular algorithm.
 
 what is the best case to search an element from an array?
-A.
+A. When element is first or last element in the array.
 
 what is the worst case to search an element from an array?
-A.
+A. when element is in the middle or not present in the array.
 
 what is tree in data structure?
-A.
+A.A tree is non-linear and a hierarchical data structure consisting of a collection of nodes such that each node of the tree stores a value, a list of references to nodes (the “children”).
 
 what is graph in data structure?
-A.
+A.A graph is a pictorial representation of a set of objects where some pairs of objects are connected by links. The interconnected objects are represented by points termed as vertices, and the links that connect the vertices are called edges.
 
 what is the difference between the HashTable and HashMap?
-A.
+A.HashMap is non synchronized. It is not-thread safe and can't be shared between many threads without proper synchronization code while Hashtable is synchronized. It is thread-safe and can be shared with many threads.
 
 What are the major data structures used in the following areas
-A.
+A.Linked list, Hashtable, trees, stack and queue.
 
 How HashMap works in java?
-A.
+A.HashMap is used to store data in key and value form. It uses hashing technique to store unique keys.
 
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
-A.
+A.The ArrayIndexOutOfBoundsException occurs whenever we are trying to access any item of an array at an index which is not present in the array. In other words, the index may be negative or exceed the size of an array.
 
 What are the different ways of copying an array into another array?
-A.
+A.i-Copying element by element.
+  ii-Using clone() method.
+  iii-System.arraycopy() method
 
 What is difference between an array and a linked list?
-A.
+A.Answered above.
 
 What is DFS and BFS?
-A.
+A.Breadth First Search or BFS is a vertex-based algorithm used for finding the shortest path in a graph while
+  Depth First Search or DFS is an edge-based algorithm. It traverses any graph in a depth-ward motion.
 
 What is Recursion?
-A.
+A.The recursion is a process by which a function calls itself. We use recursion to solve bigger problem into smaller sub-problems.
 
 What are linear and non linear data Structures?
-A.
+A.Linear data structure is a type of Data Structure where the data elements get linearly or sequentially arranged. The elements attach themselves to their next and previous adjacent while
+  Non-linear data structure is a form of data structure where the data elements don’t stay arranged linearly or sequentially. Since the data structure is non-linear, it does not involve a single level. Therefore, a user can’t traverse all of its elements in a single run.
 
 What is Big-(O)-notation?
-A.
+A.The Big O notation is the most commonly used notation to measure the performance of any algorithm by defining its order of growth.
 
 Outlined different kind of sorting algorithm with time complexity?
-A.
+A.i-Bubble sort: Worse case: O(n2) Best case: O(n)
+  ii-selection sort: Worst case = Average Case = Best Case = O(n2)
+  iii-Insertion sort: Worse case: O(n2)
+  iv-Merge sort: Worst case = Average Case = Best Case = O(n log n)
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
-A.
+A.Data structure:     time complexity                 advantages                            disadvantages
+
 
 
